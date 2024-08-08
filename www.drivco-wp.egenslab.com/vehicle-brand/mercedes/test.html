@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="searchForm">
+            <div class="row row-cols-xl-5 row-cols-md-3 row-cols-sm-2 row-cols-1 g-3 justify-content-center">
+                <div class="col">
+                    <div class="form-inner">
+                        <label>Select Brand*</label>
+                        <select name="vehicle_brand" id="vehicleBrand">
+                            <option value="">Select Brand</option>
+                            <option value="lexus">Lexus</option>
+                            <option value="land-rover">Land Rover</option>
+                            <option value="mack">Mack Trucks</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="more">More</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-inner">
+                        <label>Select Model*</label>
+                        <select name="vehicle_model" id="vehicleModel">
+                            <option value="all">All</option>
+                            <option value="gle-43">GLE-43</option>
+                            <option value="c-300">C-300</option>
+                            <option value="c-350">C-350</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-end">
+                    <div class="form-inner">
+                        <button type="button" class="primary-btn3" id="searchButton">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                                <path d="..."></path>
+                            </svg>
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Example product cards -->
+    <div class="lexus gle-43 product-card">gle 43</div>
+    <div class="mercedes c-350 product-card">c-350</div>
+
+    <div class="col-xl-3 col-lg-4 lexus gle-43 col-md-6 product-card">
+        <div class="product-img">
+            <img fetchpriority="high" width="400" height="250" src="path_to_image" class="attachment-egns-thumb-cart size-egns-thumb-cart wp-post-image" alt="" decoding="async" />
+            <div id="66a2ce2e4b31b" class="hidden">
+                <a href="path_to_image"></a>
+                <a href="path_to_image"></a>
+            </div>
+            <div class="number-of-img">
+                <a href="#66a2ce2e4b31b" class="btn-gallery">
+                    <img src="path_to_icon" alt="">5
+                </a>
+            </div>
+        </div>
+        <div class="product-content">
+            <h5><a href="link_to_product">gle 296 GTB</a></h5>
+            <div class="price-location">
+                <div class="price"><strong>$654,165.00</strong></div>
+                <div class="location">
+                    <a href="link_to_location"><i class="bi bi-geo-alt"></i>Kualalumpur</a>
+                </div>
+            </div>
+            <ul class="features">
+                <li><img src="path_to_icon" alt="">25,100 miles</li>
+                <li><img src="path_to_icon" alt="">Petrol + Gas</li>
+                <li><img src="path_to_icon" alt="">22,231 cc</li>
+            </ul>
+            <div class="content-btm">
+                <a class="view-btn2" href="link_to_product">
+                    <svg width="35" height="21" viewBox="0 0 35 21" xmlns="http://www.w3.org/2000/svg">
+                        <path d="..."/>
+                    </svg>
+                    View Details
+                </a>
+                <div class="brand">
+                    <a href="link_to_brand">
+                        <img src="path_to_brand_logo" alt="brand">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-lg-4 mercedes c-300 col-md-6 product-card">
+        <div class="product-img">
+            <img fetchpriority="high" width="400" height="250" src="path_to_image" class="attachment-egns-thumb-cart size-egns-thumb-cart wp-post-image" alt="" decoding="async" />
+            <div id="66a2ce2e4b31b" class="hidden">
+                <a href="path_to_image"></a>
+                <a href="path_to_image"></a>
+            </div>
+            <div class="number-of-img">
+                <a href="#66a2ce2e4b31b" class="btn-gallery">
+                    <img src="path_to_icon" alt="">5
+                </a>
+            </div>
+        </div>
+        <div class="product-content">
+            <h5><a href="link_to_product"> C-300</a></h5>
+            <div class="price-location">
+                <div class="price"><strong>$350,000.00</strong></div>
+                <div class="location">
+                    <a href="link_to_location"><i class="bi bi-geo-alt"></i>Kualalumpur</a>
+                </div>
+            </div>
+            <ul class="features">
+                <li><img src="path_to_icon" alt="">15,000 miles</li>
+                <li><img src="path_to_icon" alt="">Petrol</li>
+                <li><img src="path_to_icon" alt="">2,000 cc</li>
+            </ul>
+            <div class="content-btm">
+                <a class="view-btn2" href="link_to_product">
+                    <svg width="35" height="21" viewBox="0 0 35 21" xmlns="http://www.w3.org/2000/svg">
+                        <path d="..."/>
+                    </svg>
+                    View Details
+                </a>
+                <div class="brand">
+                    <a href="link_to_brand">
+                        <img src="path_to_brand_logo" alt="brand">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchButton = document.getElementById('searchButton');
+            const vehicleBrand = document.getElementById('vehicleBrand');
+            const vehicleModel = document.getElementById('vehicleModel');
+            const productCards = document.querySelectorAll('.product-card');
+
+            searchButton.addEventListener('click', function() {
+                const selectedBrand = vehicleBrand.value;
+                const selectedModel = vehicleModel.value;
+
+                productCards.forEach(card => {
+                    const matchesBrand = selectedBrand === '' || card.classList.contains(selectedBrand);
+                    const matchesModel = selectedModel === 'all' || card.classList.contains(selectedModel);
+
+                    if (matchesBrand && matchesModel) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

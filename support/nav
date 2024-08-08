@@ -1,0 +1,94 @@
+<header class="header-area style-1">
+    <div class="header-logo d-lg-none d-flex">
+        				<a href="../../index.html" title="Drivco">
+											<img class="img-fluid" src="../wp-img/nav.png" alt="klabrands"></a>
+						    </div>
+    <div class="main-menu">
+        <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
+            <div class="mobile-logo-wrap">
+                				<a href="../../index.html" title="Drivco">
+											<img class="img-fluid" src="../wp-img/nav.png" alt="Drivco"></a>
+						            </div>
+        </div>
+
+        <!-- Main Menu -->
+        <div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu-list"><li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="../../index.html">Home</a><i class="bi bi-plus dropdown-icon"></i></li>
+<li id="menu-item-1295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-mega-menu menu-item-1295"><a href="#">Available Cars</a><i class="bi bi-plus dropdown-icon"></i>
+<ul class="sub-menu">
+	<li id="menu-item-1323" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1323"><a href="#">Browse by Brand</a><i class="bi bi-plus dropdown-icon"></i>
+	<ul class="sub-menu">
+
+		<li id="menu-item-1297" class="menu-item menu-item-type-taxonomy menu-item-object-vehicle-brand menu-item-1297"><a href="../vehicle-brand/Lexus/index.html">Lexus</a><i class="bi bi-plus dropdown-icon"></i></li>
+		<li id="menu-item-1298" class="menu-item menu-item-type-taxonomy menu-item-object-vehicle-brand menu-item-1298"><a href="../vehicle-brand/land-rover/index.html">Land Rover</a><i class="bi bi-plus dropdown-icon"></i></li>
+		<li id="menu-item-1299" class="menu-item menu-item-type-taxonomy menu-item-object-vehicle-brand menu-item-1299"><a href="../vehicle-brand/Mack/index.html">Mack Trucks</a><i class="bi bi-plus dropdown-icon"></i></li>
+		<li id="menu-item-1302" class="menu-item menu-item-type-taxonomy menu-item-object-vehicle-brand menu-item-1302"><a href="../vehicle-brand/mercedes/index.html">Mercedes</a><i class="bi bi-plus dropdown-icon"></i></li>
+		<li id="menu-item-1308" class="menu-item menu-item-type-taxonomy menu-item-object-vehicle-brand menu-item-1308"><a href="../vehicle-brand/toyota/index.html">Toyota</a><i class="bi bi-plus dropdown-icon"></i></li>
+        <li id="menu-item-1300" class="menu-item menu-item-type-taxonomy menu-item-object-vehicle-brand menu-item-1300"><a href="../vehicle-brand/more/index.html">More</a><i class="bi bi-plus dropdown-icon"></i></li>
+	</ul>
+</li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="../vehicle/index.html">Vehicles</a><i class="bi bi-plus dropdown-icon"></i></li>
+</ul>
+</li>
+<li id="menu-item-1468" class="menu-item menu-item-type-taxonomy menu-item-object-vehicle-category menu-item-1468"><a href="https://wa.me/2348059389197">Swap Car</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-58"><a href="#">Pages</a><i class="bi bi-plus dropdown-icon"></i>
+<ul class="sub-menu">
+	<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28 current_page_item menu-item-41"><a href="index.html" aria-current="page">About Us</a><i class="bi bi-plus dropdown-icon"></i></li>
+
+	<li id="menu-item-1802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1802"><a href="../offer/index.html">Special Offer</a><i class="bi bi-plus dropdown-icon"></i></li>
+	
+    <li id="menu-item-872" class="menu-item menu-item-type-post_type menu-item-object-vehicle menu-item-872"><a href="../blog-standard/index.html">Blog Standard</a><i class="bi bi-plus dropdown-icon"></i></li>
+	<li id="menu-item-912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-912"><a href="../faqs/index.html">FAQ’s</a><i class="bi bi-plus dropdown-icon"></i></li>
+	<li id="menu-item-884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="../customer-feedback/index.html">Customer Review</a><i class="bi bi-plus dropdown-icon"></i></li>
+	<li id="menu-item-927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-927"><a href="../refund_returns/index.html">Return &#038; Exchange</a><i class="bi bi-plus dropdown-icon"></i></li>
+</ul>
+</li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="../contact-us/index.html">Contact Us</a><i class="bi bi-plus dropdown-icon"></i></li>
+</ul></div>
+       
+                    <div class="hotline-area d-lg-none d-flex">
+                                    <div class="icon">
+                        <img src="https://drivco-wp.b-cdn.net/wp-content/plugins/drivco-core//inc/theme-options/images/icon/hotline-icon.svg" alt="">
+                    </div>
+                                                    <div class="content">
+                        <span>To More Inquiry</span>
+                                                    <h6><a href="tel:990737621432">+234 805 938 9197</a></h6>
+                                            </div>
+                            </div>
+        
+    </div>
+
+
+
+    <div class="nav-right d-flex jsutify-content-end align-items-center">
+                    <!-- Button trigger modal -->
+            <div class="dropdown">
+                                   
+
+                                                    <div class="cart-menu">
+                        <div class="cart-body">
+                            <div class="widget_shopping_cart_content">
+
+	<p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
+
+
+</div>
+                        </div>
+                    </div>
+                            </div>
+        
+                    <div class="hotline-area d-xl-flex d-none">
+                                    <div class="icon">
+                        <img src="https://drivco-wp.b-cdn.net/wp-content/plugins/drivco-core//inc/theme-options/images/icon/hotline-icon.svg" alt="">
+                    </div>
+                                                    <div class="content">
+                        <span>To More Inquiry</span>
+                                                    <h6><a href="tel:990737621432">+234 805 938 9197</a></h6>
+                                            </div>
+                            </div>
+        
+
+        <div class="sidebar-button mobile-menu-btn ">
+            <span></span>
+        </div>
+    </div>
+</header>

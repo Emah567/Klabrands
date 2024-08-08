@@ -1,0 +1,32 @@
+https://www.facebook.com/klabrands
+
+
+https://www.instagram.com/klabrands?igsh=eThnd2psNzE4N3Ri
+
+
+klabrands2017@gmail.com
+
+
+https://wa.me/2348059389197
+
+
++234 805 938 9197
+
+
+KM 2 refinery opposite lexxington blu Hotel, Warri, Nigeria
+
+
+KM 2 refinery Warri, Nigeria
+
+
+../index.html
+
+
+ mobile-logo 
+
+ company-logo 
+
+ footer-logo 
+
+
+	<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="../../car-listing-right-sidebar/index.html">Car List</a><i class="bi bi-plus dropdown-icon"></i></li>

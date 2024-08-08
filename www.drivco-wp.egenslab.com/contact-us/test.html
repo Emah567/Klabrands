@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('XLVbtu7SdIOtGa60B');
+    </script>
+</head>
+<body>
+    <div class="form-container">
+        <form id="contactForm" class="form" action="/success">
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit" id="button">Send</button>
+        </form>
+    </div>
+    <script>
+        // Remove the action attribute from the form
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+            form.removeAttribute('action');
+        });
+
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const btn = document.getElementById('button');
+            btn.textContent = 'Sending...';
+
+            const serviceID = 'default_service';
+            const templateID = 'template_dim9mqt';
+            const fromName = document.querySelector('[name="first_name"]').value;
+
+            emailjs.sendForm(serviceID, templateID, this)
+                .then(() => {
+                    btn.textContent = 'Send';
+                    alert(`Hello ${fromName}, we've received your message and we'll get back to you shortly.`);
+                }, (err) => {
+                    btn.textContent = 'Send';
+                    alert(JSON.stringify(err));
+                });
+        });
+    </script>
+</body>
+</html>

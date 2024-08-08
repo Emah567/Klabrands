@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.drivco-wp.egenslab.com	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
+www.drivco-wp.egenslab.com	TRUE	/	FALSE	1999999999	wp_woocommerce_session_aa5738dfe450071755675e3b4c34b07a	t_491f46288832a34acb35679436e5fc%7C%7C1722122806%7C%7C1722119206%7C%7Ccfdf604e7ed6502994a95935a8e87aa2
+www.drivco-wp.egenslab.com	TRUE	/	FALSE	1999999999	yith_wcwl_session_aa5738dfe450071755675e3b4c34b07a	%7B%22session_id%22%3A%22d37638fb1b87f444855e64ad226cf12a%22%2C%22session_expiration%22%3A1724542032%2C%22session_expiring%22%3A1724538432%2C%22cookie_hash%22%3A%22ff64f53358b42eef4cc0da62a851a97c%22%7D
+www.drivco-wp.egenslab.com	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	6b0d0f6fa2eb9a865331bdd3a0b3468c
+

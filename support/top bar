@@ -1,0 +1,18 @@
+<div class="top-bar ">
+    <div class="company-logo">
+        				<a href="../../index.html" title="Drivco">
+											<img class="img-fluid" src="../wp-img/nav.png" alt="Drivco"></a>
+						    </div>
+            <div class="search-area">
+                        <form method="get" id="searchform" action="https://www.drivco-wp.egenslab.com/vehicle/">
+            <div class="form-inner">
+                <input type="text" name="s" id="s" placeholder="Search your products" />
+                <input type="hidden" name="post_type" value="vehicle" /> <!-- Change 'vehicle' to your custom post type name -->
+                <a href="../vehicle/index.html"><button><i class="bi bi-search"></i></button></a>
+            </div>
+        </form>
+            </div>
+    
+
+       
+    </div>

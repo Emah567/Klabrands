@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    <form id="form">
+  <div class="field">
+    <label for="from_name">from_name</label>
+    <input type="text" name="from_name" id="from_name">
+  </div>
+  <div class="field">
+    <label for="phone_number">phone_number</label>
+    <input type="text" name="phone_number" id="phone_number">
+  </div>
+  <div class="field">
+    <label for="car">car</label>
+    <input type="text" name="car" id="car">
+  </div>
+  <div class="field">
+    <label for="location">location</label>
+    <input type="text" name="location" id="location">
+  </div>
+  <div class="field">
+    <label for="message">message</label>
+    <input type="text" name="message" id="message">
+  </div>
+ 
+  <input type="submit" id="button" value="Send Email" >
+</form>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('XLVbtu7SdIOtGa60B')
+</script>
+<script>
+    const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_b83mtt8';
+
+   const fromName = document.getElementById('from_name').value;
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert(`Hello ${fromName}, we've received your message and we'll get back to you shortly.`);
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+</script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copy URL</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+ <!--  <div class="background">
+    <center> -->
+      <button class="clipboard">Click me to copy current Url</button>
+  
+  <!--   </center>
+  </div> -->
+
+  <script>
+    var $temp = $("<input>");
+    var $url = $(location).attr('href');
+
+    $('.clipboard').on('click', function() {
+      $("body").append($temp);
+      $temp.val($url).select();
+      document.execCommand("copy");
+      $temp.remove();
+      alert("URL copied!");
+    })
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy URL</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <button class="clipboard">Copy URL</button>
+     <script>
+        $(document).ready(function() {
+            var $temp = $("<input>");
+            var $url = $(location).attr('href');
+
+            $('.clipboard').on('click', function() {
+                $("body").append($temp);
+                $temp.val($url).select();
+                document.execCommand("copy");
+                $temp.remove();
+                alert("URL copied!");
+            });
+        });
+    </script>
+</body>
+</html>
